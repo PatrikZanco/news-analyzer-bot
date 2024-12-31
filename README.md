@@ -1,6 +1,6 @@
 # Analisador de Notícias Financeiras
 
-Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que rastreia notícias de sites de noticias financeiras, analisa o sentimento das postagens e utilizando técnicas de NLP apresenta análises visuais.
+Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que busca notícias de sites de noticias financeiras do site [InfoMoney](https://www.infomoney.com.br/), analisa o sentimento das postagens e utilizando técnicas de NLP apresenta análises visuais.
 
 ## **Funcionalidades**
 
