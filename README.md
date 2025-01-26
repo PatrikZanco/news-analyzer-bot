@@ -1,15 +1,15 @@
 # Analisador de Notícias Financeiras
 
-Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que busca notícias financeiras do site [InfoMoney](https://www.infomoney.com.br/), analisa o sentimento das postagens utilizando técnicas de NLP e apresenta análises visuais.
+Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que busca notícias financeiras do site [CoinTeleGraph](https://br.cointelegraph.com/), analisa o sentimento das postagens utilizando técnicas de NLP e apresenta análises visuais.
 
 ## **Funcionalidades**
 
 - **Rastreamento de notícias:**
-- Automação para coletar noticías de sites financeiros utilizando Selenium e BeautifulSoup.
+- Automação para coletar noticías de sites financeiros utilizando BeautifulSoup.
 - **Análise de Sentimento:**
-  - Classificação das noticías em positivas, negativas ou neutras com modelos baseados em `transformers` ou `nltk`.
-- **Filtros Personalizados:**
-  - Filtragem de dados por setor, palavra-chave ou período.
+  - Classificação das noticías com modelos baseados em `nltk`.
+- - **Sumarização:**
+  - Resumir as notíticas com o modelo de sumariização `facebook/bart-large-cnn`.
 - **Visualização Interativa:**
   - Gráficos de sentimento ao longo do tempo.
   - Word clouds para destacar termos mais frequentes.

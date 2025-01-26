@@ -12,7 +12,7 @@ def valid_request(url):
     except requests.exceptions.RequestException as e:
         return {"status": f"error: {e}", "html": None}
 
-url = "https://www.infomoney.com.br/mercados/luiz-barsi-neto-licoes-historias-caso-oi-no-mercado-financeiro/"
+url = "https://br.cointelegraph.com/news/ethereum-whales-add-1-b-in-eth-is-the-accumulation-trend-hinting-at-a-5-k-eth-price"
 
 result = valid_request(url)
 
@@ -20,7 +20,7 @@ if result["status"] == "success":
     html_content = result["html"]
     soup = BeautifulSoup(html_content, "html.parser")
 
-    content = soup.select_one("article.im-article.clear-fix")
+    content = soup.select_one("article.post__article")
     if content:
         if not os.path.exists("data"):
             os.makedirs("data")
