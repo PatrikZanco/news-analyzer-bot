@@ -5,11 +5,11 @@ Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que bus
 ## **Funcionalidades**
 
 - **Rastreamento de notícias:**
-- Automação para coletar noticías de sites financeiros utilizando Selenium e BeautifulSoup.
+- Automação para coletar noticías de sites financeiros utilizando BeautifulSoup.
 - **Análise de Sentimento:**
   - Classificação das noticías com modelos baseados em `nltk`.
-- **Filtros Personalizados:**
-  - Filtragem de dados por setor, palavra-chave ou período.
+- - **Sumarização:**
+  - Resumir as notíticas com o modelo de sumariização `facebook/bart-large-cnn`.
 - **Visualização Interativa:**
   - Gráficos de sentimento ao longo do tempo.
   - Word clouds para destacar termos mais frequentes.
