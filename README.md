@@ -8,7 +8,7 @@ Este projeto é um aplicativo interativo desenvolvido com **Streamlit**, que bus
 - Automação para coletar noticías de sites financeiros utilizando BeautifulSoup.
 - **Análise de Sentimento:**
   - Classificação das noticías com modelos baseados em `nltk`.
-- - **Sumarização:**
+- **Sumarização:**
   - Resumir as notíticas com o modelo de sumariização `facebook/bart-large-cnn`.
 - **Visualização Interativa:**
   - Gráficos de sentimento ao longo do tempo.
